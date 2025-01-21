@@ -1,0 +1,155 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7; /* Soft gray background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header section */
+header {
+    background: linear-gradient(45deg, #1e293b, #00ffee); /* Gradient background */
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 5px solid #568ec2;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+header p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+/* Banner Image */
+.banner {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 136, 255, 0.2); /* Blue-tinted shadow */
+    margin-top: 30px;
+}
+
+/* Main container */
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #ffffff, #e6f7ff); /* Subtle gradient */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Contact Form */
+form {
+    margin-top: 30px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 136, 255, 0.1); /* Subtle blue shadow */
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ff7a00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #00b7ff;
+}
+
+/* Navigation */
+nav {
+    margin-top: 30px;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #1e293b;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color: #00e1ff;
+    text-decoration: underline;
+}
+
+/* Project cards */
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.column {
+    width: 30%;
+}
+
+.custom-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 136, 255, 0.3); /* Blue-tinted hover shadow */
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid #00fffb;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 15px 0;
+}
+
+a {
+    color: #00ccff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}

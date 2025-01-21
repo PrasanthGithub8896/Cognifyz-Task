@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prasanth Manoharan - Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Custom Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff0000;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        header .title {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        header .subtitle {
+            font-size: 1.5rem;
+        }
+
+        .section {
+            padding: 50px 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            text-align: center;
+            color: #333;
+        }
+
+        .custom-card {
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+
+        .custom-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-image img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 25px;
+        }
+
+        .card .title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        .card .subtitle {
+            font-size: 1.2rem;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .card .card-text {
+            font-size: 1rem;
+            color: #777;
+            margin-bottom: 25px;
+        }
+
+        .card a {
+            display: inline-block;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .card a:hover {
+            background-color: #0056b3;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1 class="title">Prasanth Manoharan</h1>
+        <p class="subtitle">IoT Enthusiast | Robotics Innovator | Tech Visionary</p>
+    </div>
+</header>
+
+<!-- Section for Bulma Responsive Card Component -->
+<section class="section">
+    <div class="container">
+        <h2>Bulma Responsive Card Component</h2>
+        <div class="columns">
+            <!-- Bulma Card 1 -->
+            <div class="column is-one-third">
+                <div class="custom-card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="IOT.jpg" alt="Project 1">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <p class="title">IoT Project</p>
+                        <p class="subtitle">Building connected devices for a smarter world.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bulma Card 2 -->
+            <div class="column is-one-third">
+                <div class="custom-card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="Robotics.jpeg" alt="Project 2">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <p class="title">Robotics Project</p>
+                        <p class="subtitle">Developing autonomous robots for various tasks.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bulma Card 3 -->
+            <div class="column is-one-third">
+                <div class="custom-card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="IOT.jpg" alt="Project 3">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <p class="title">Smart Home Automation</p>
+                        <p class="subtitle">Connecting your home with smart devices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <h2>Bootstrap Responsive Grid Layout</h2>
+    <div class="columns gy-4"> <!-- Added gy-4 for vertical spacing -->
+        <!-- Project 1 -->
+        <div class="column">
+            <div class="card custom-card">
+                <div class="card-image">
+                    <img src="IOT.jpg" alt="Project Image">
+                </div>
+                <div class="card-content">
+                    <p class="title">IoT Project</p>
+                    
+                    <p class="subtitle">Building connected devices for a smarter world.</p>
+                    <p>This project explores creating IoT devices for monitoring and control in various applications.</p>
+                    <a href="#">View Project</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="column">
+            <div class="card custom-card">
+                <div class="card-image">
+                    <img src="Robotics.jpeg" alt="Project Image">
+                </div>
+                <div class="card-content">
+                    <p class="title">Robotics Project</p>
+                    <p class="subtitle">Developing autonomous robots for various tasks.</p>
+                    <p>This project focuses on building robots capable of performing autonomous tasks using AI and sensors.</p>
+                    <a href="#">View Project</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="column">
+            <div class="card custom-card">
+                <div class="card-image">
+                    <img src="Home automation.jpg" alt="Project Image">
+                </div>
+                <div class="card-content">
+                    <p class="title">Smart Home Automation</p>
+                    <p class="subtitle">Connecting your home with smart devices.</p>
+                    <p>This project integrates IoT devices to automate various tasks in a home environment, improving efficiency.</p>
+                    <a href="#">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
